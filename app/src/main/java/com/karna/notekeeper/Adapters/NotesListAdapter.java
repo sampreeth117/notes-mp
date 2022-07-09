@@ -1,7 +1,6 @@
-package com.evanemran.notekeeper.Adapters;
+package com.karna.notekeeper.Adapters;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,13 +11,11 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.evanemran.notekeeper.Listeners.NoteClickListener;
-import com.evanemran.notekeeper.Models.Notes;
+import com.karna.notekeeper.Listeners.NoteClickListener;
+import com.karna.notekeeper.Models.Notes;
 import com.evanemran.notekeeper.R;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Random;
 

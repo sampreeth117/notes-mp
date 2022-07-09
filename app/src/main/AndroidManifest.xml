@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Notekeeper">
         <activity
-            android:name=".NoteTakerActivity"
+            android:name="com.karna.notekeeper.NoteTakerActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.karna.notekeeper.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

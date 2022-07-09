@@ -1,4 +1,4 @@
-package com.evanemran.notekeeper;
+package com.karna.notekeeper;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -12,7 +12,8 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.evanemran.notekeeper.Models.Notes;
+import com.karna.notekeeper.Models.Notes;
+import com.evanemran.notekeeper.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

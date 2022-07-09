@@ -1,4 +1,4 @@
-package com.evanemran.notekeeper;
+package com.karna.notekeeper;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,10 +23,11 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.evanemran.notekeeper.Adapters.NotesListAdapter;
-import com.evanemran.notekeeper.Database.RoomDB;
-import com.evanemran.notekeeper.Listeners.NoteClickListener;
-import com.evanemran.notekeeper.Models.Notes;
+import com.karna.notekeeper.Adapters.NotesListAdapter;
+import com.karna.notekeeper.Database.RoomDB;
+import com.karna.notekeeper.Listeners.NoteClickListener;
+import com.karna.notekeeper.Models.Notes;
+import com.evanemran.notekeeper.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;

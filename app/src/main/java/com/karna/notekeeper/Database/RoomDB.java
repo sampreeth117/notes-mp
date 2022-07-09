@@ -1,15 +1,12 @@
-package com.evanemran.notekeeper.Database;
+package com.karna.notekeeper.Database;
 
 import android.content.Context;
-import android.os.AsyncTask;
 
-import androidx.annotation.NonNull;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
-import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.evanemran.notekeeper.Models.Notes;
+import com.karna.notekeeper.Models.Notes;
 
 @Database(entities = {Notes.class}, version = 4, exportSchema = false)
 public abstract class RoomDB extends RoomDatabase {

@@ -1,4 +1,4 @@
-package com.evanemran.notekeeper.Models;
+package com.karna.notekeeper.Models;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

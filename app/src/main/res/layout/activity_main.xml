@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    tools:context=".MainActivity">
+    tools:context="com.karna.notekeeper.MainActivity">
     <TextView
         android:id="@+id/textView_placeholder"
         android:text="Start adding Notes.."

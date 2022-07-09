@@ -1,8 +1,8 @@
-package com.evanemran.notekeeper.Listeners;
+package com.karna.notekeeper.Listeners;
 
 import androidx.cardview.widget.CardView;
 
-import com.evanemran.notekeeper.Models.Notes;
+import com.karna.notekeeper.Models.Notes;
 
 public interface NoteClickListener {
     void onClick(Notes notes);
